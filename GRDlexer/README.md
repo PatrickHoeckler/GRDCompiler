@@ -5,7 +5,7 @@
 
 This is the lexer part of the GRDCompiler. The first step in compiling a program file is converting all letters and symbols into program tokens, these can be: Operation tokens (+, -, <, >, &&, ||,  ...); literals (integers, reals, strings, characters, ...); Comments; Reserved words; Identifiers; and any other token that the language may have.
 
-The above figure shows how this lexer makes decisions based on a input character to reach a resulting token. This tokens are later sent to the [parser](../GRDParser) for the syntax analysis.
+The above figure shows how this lexer makes decisions based on an input character to reach a resulting token. This tokens are later sent to the [parser](../GRDparser) for the syntax analysis.
 
 For all the details about the Finite State Machine and how the lexer processes the input characters you can check the [manual](docs/manual-automato.pdf) (Portuguese only).
 
