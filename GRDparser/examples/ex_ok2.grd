@@ -1,0 +1,32 @@
+program ex_ok2;
+
+//procedimento com parametros
+procedure proc1 (int1, int2 : integer; ch1 : char;)
+  begin ; end
+;
+
+//procedimento sem parametros
+procedure proc2
+  begin ; end
+; 
+
+const
+  const1 = integer;
+  const2 = real;
+  const3 = string; 
+
+declaravariaveis
+  real1, real2, real3 : real;
+  st1, st2 : string;
+
+//bloco com alguns comandoss
+begin
+  x=5*2.0;
+  x=x-12;
+  y=x/-2;
+  y=.7+-8.;
+  x=41+42;
+  chamaprocedure proc2;
+end
+
+.

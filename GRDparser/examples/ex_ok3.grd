@@ -1,0 +1,34 @@
+program ex_ok3;
+
+procedure maximo (x, y : integer;) begin
+	if [ x > y ] then	begin
+		write(x);
+	end
+	else begin
+		write(y);
+	end;
+end;
+
+procedure sum(vec : array[0..10] of real;)
+	declaravariaveis
+	sum: real;
+	i  : integer;
+	begin
+	sum = 0;
+	for [i=0]to[i<10] do begin 
+		sum = sum + 1;
+	end;
+	write(sum);
+end;
+
+declaravariaveis x: char;
+s: string;
+
+begin
+	x = '\n';
+	repeat
+		x = x+-1;
+		y = x*2;
+	until [x = 255];
+	s = "Que vida boa, sapo caiu na lagoa\n";
+end.

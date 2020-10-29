@@ -1,0 +1,8 @@
+program ex_bad1 //esqueceu o ponto e virgula
+
+declaravariaveis
+x: integre; //confundindo as letras no tipo
+
+begin
+  x = 0;
+  //esqueceu end e ponto

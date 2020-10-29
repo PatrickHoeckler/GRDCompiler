@@ -1,0 +1,11 @@
+/**Exemplo de programa**/
+
+program ex_ok1;
+
+declaravariaveis
+x: integer;
+
+//bloco que nao faz nada
+/*comentario de bloco antes*/ begin /*comentario de bloco depois*/ 
+  ;//comando vazio
+end.

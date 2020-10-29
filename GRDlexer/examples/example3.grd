@@ -1,0 +1,40 @@
+program essa_aqui_tem_erro_rapaz;
+
+procedure print
+	begin
+    //Erros nos literais string e char
+	  write("Hello World);
+    write('o)
+
+    
+	end
+; 
+
+declaravariaveis
+//Utilizacao de simbolos invalidos
+meu_char!: char;
+x: integer;
+
+begin
+	read(x); 
+	
+	while[x<>3]do
+  /*comentario de bloco antes*/ begin /*comentario de bloco depois*/ 
+    read(x); 
+  end
+	
+  x = x++2;
+  x = x--1;
+  x = x+-4;
+  x = x-+8;
+
+  //Utilizando sequencias de escape validas
+  s = "\tDo fundo da grota\\Baitaca\r\n\0";
+
+  //Utilizando sequencias de escape inexistentes
+	s = "Se nao conhece ai nao adianta \z";
+  s = "\2 nao adianta, \3 nao adianta";
+
+end
+
+.

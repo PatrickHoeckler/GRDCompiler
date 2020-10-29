@@ -1,0 +1,48 @@
+/**Exemplo de programa**/
+
+program exemplo;
+
+//procedimento com parametros
+procedure proc1 (int1, int2 : integer; ch1 : char)
+  //declaracao de variaveis
+  //corpo de codigo
+;
+
+//procedimento sem parametros
+procedure proc2
+  //declaracao de variaveis
+  //corpo de codigo
+; 
+
+const
+  const1 = integer;
+  const2 = real;
+  const3 = string; 
+
+declaravariaveis
+  real1, real2, real3 : real;
+  st1, st2 : string;
+
+//bloco que nao faz nada
+begin
+ ; //comando vazio
+end
+//bloco com alguns comandos nao vazios
+begin
+ x = 5 * 2.0;
+ x=x+1;
+ y=x/-2;
+ y= .7+-8.;
+
+ /* se eu fazer desse jeito tudo junto eu vou ter os tokens:
+ ID = INT INT
+ eu posso corrigir isso adicionando uma regra no sintatico
+ pra fazer a soma quando tenho dois numeros na sequencia.
+ mas vou ver se consigo corrigir de outra maneira para o
+ proximo trabalho, no pior dos casos isso vai levantar um erro*/
+ x=4+2;
+ chamaprocedure proc2;
+ 
+end
+
+.

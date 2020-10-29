@@ -1,0 +1,23 @@
+program ex_bad2 //esqueceu o ponto e virgula
+
+procedure proc1 (int1, int2 : integer; ch1 : char;)
+  //Esqueceu begin e end no procedure
+  int1 = int2 * ch1;
+  write(int1);
+;
+
+declaravariaveis
+x: integer;
+s string; //esqueceu os :
+
+begin
+  x = x-+2; //soma valida
+  x = 4++6; //soma invalida - erro lexico
+
+  repeat
+		y = x*2 //esqueceu ponto e virgula
+	until [x = 255] //esqueceu ponto e virgula
+
+  read(y);
+
+. //esqueceu end
